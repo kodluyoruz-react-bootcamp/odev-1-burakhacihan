@@ -1,0 +1,21 @@
+{
+  "name": "hafta-1-odev-v-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+		"start": "node dist/app.js",
+		"dev": "nodemon src/app.js",
+		"build": "sucrase ./src -d ./dist --transforms imports"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+		"nodemon": "^2.0.6",
+		"sucrase": "^3.16.0"
+	},
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
